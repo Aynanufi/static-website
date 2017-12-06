@@ -1,0 +1,72 @@
+#homebody {
+    font-family: Courier New, Courier, monospace;
+    color: white;    
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#logo {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Courier New, Courier, monospace;;
+    /* font-style: italic; */
+    text-decoration: none;
+    color: white;
+    margin-top: 200px !important;
+    padding-left: 20px;
+}
+
+#logo-li {
+    display: inline; 
+}
+
+#centre {
+    position:absolute;
+    margin-top:200px;
+    margin-left:450px;
+}
+
+.nav-li {
+    display: inline;
+    padding-right: 30px;
+    font-family: Courier New, Courier, monospace;  
+    
+}
+
+.nav-li a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.nav-ul {
+    float: right;
+    padding: 10px 50px 10px 5px;
+    margin-right: 100px;
+    font-family: Courier New, Courier, monospace;
+    
+}
+
+
+#woods {
+    width: 70%;
+
+}
+#profilephoto{
+    width: 350px;
+    margin-left: 10px;    
+    
+}
+
+#quote{
+
+}
+/* about */
+#aboutbody{
+    font-family: Courier New, Courier, monospace;
+    background-image: url("../images/ifunanyagooglemaps.webp");
+    color: rosybrown;
+
+}
+
