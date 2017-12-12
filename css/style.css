@@ -13,8 +13,8 @@
     /* font-style: italic; */
     text-decoration: none;
     color: white;
-    margin-top: 200px !important;
-    padding-left: 20px;
+    /* margin-top: 200px !important; */
+    /* padding-left: 20px; */
 }
 
 #logo-li {
@@ -23,7 +23,7 @@
 
 #centre {
     position:absolute;
-    margin-top:200px;
+    margin-top:150px;
     margin-left:450px;
 }
 
@@ -38,11 +38,30 @@
     text-decoration: none;
     color: #ffffff;
     
+    
+}
+
+.nav-ul-2 .nav-li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+    
 }
 
 .nav-ul {
     float: right;
     padding: 10px 50px 10px 5px;
+    margin-right: 100px;
+    font-family: Courier New, Courier, monospace;
+    
+}
+
+.nav-ul-2 {
+    float: right;
+    padding: -10px 50px 10px 5px;
     margin-right: 100px;
     font-family: Courier New, Courier, monospace;
     
@@ -59,14 +78,81 @@
     
 }
 
-#quote{
 
+#topNav h6 a {
+    color: black;
 }
 /* about */
 #aboutbody{
     font-family: Courier New, Courier, monospace;
-    background-image: url("../images/ifunanyagooglemaps.webp");
-    color: rosybrown;
+    /* background-image: url("../images/ifunanyagooglemaps.webp"); */
+    background-color: rosybrown;
+}
+
+
+
+.aboutme-section {
+    /* margin-top: 250px; */
+    /* margin-left: 123px;
+    margin-right: 180px; */
+    /* float: right; */
+    /* border: 2px solid black; */
+    margin-left: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+
+.contactme-section {
+    /* margin-top: 250px; */
+    margin-left: 123px;
+    margin-right: 180px;
+    padding: 0% 20% 0% 20%;
+    /* border: 2px solid black; */
 
 }
 
+.about-header {
+    margin-top: 200px;
+    margin-left: 50%;
+    font-weight: bold;
+    /* padding: 0% 30% 0% 30%; */
+    /* margin-bottom: 40px; */
+    font-size: 36px;
+    /* margin-left: 123px;
+    margin-right: 180px; */
+    /* border: 2px solid black; */
+}
+
+#topNav {
+    border: 1px solid rosybrown;
+    position: inherit;
+    z-index: 1;
+}
+
+.form-field input {
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.form-field textarea {
+    width: 500px;
+    border-radius: 5px;
+}
+
+#about-photo {
+    /* margin-top: 20%; */
+    position: absolute;
+    margin-left: 250px;
+}
+
+.about-header{
+    text-decoration: underline;
+}
