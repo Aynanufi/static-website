@@ -43,7 +43,8 @@
 
 .nav-ul-2 .nav-li a{
     text-decoration: none;
-    color: black;
+    color: #000;        
+    /* color: black; */
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -86,7 +87,11 @@
 #aboutbody{
     font-family: Courier New, Courier, monospace;
     /* background-image: url("../images/ifunanyagooglemaps.webp"); */
-    background-color: rosybrown;
+    color: #000000;    
+    background: #bc8f8f;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #434343, #000000);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* min-height: 1000px; */
 }
 
 
@@ -97,7 +102,7 @@
     margin-right: 180px; */
     /* float: right; */
     /* border: 2px solid black; */
-    margin-left: 40%;
+    margin-left: 30%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -106,6 +111,7 @@
     font-size: 30px;
     margin-left: 70px;
 }
+
 
 
 .contactme-section {
@@ -118,19 +124,21 @@
 }
 
 .about-header {
-    margin-top: 200px;
-    margin-left: 50%;
+    /* margin-top: 200px; */
+    margin-left: 30%;
     font-weight: bold;
+    /* text-decoration: underline; */
+    margin-top: 40px;
     /* padding: 0% 30% 0% 30%; */
     /* margin-bottom: 40px; */
-    font-size: 36px;
+    font-size: 30px;
     /* margin-left: 123px;
     margin-right: 180px; */
     /* border: 2px solid black; */
 }
 
 #topNav {
-    border: 1px solid rosybrown;
+    border: 0px solid #000000;
     position: inherit;
     z-index: 1;
 }
@@ -149,10 +157,136 @@
 
 #about-photo {
     /* margin-top: 20%; */
-    position: absolute;
-    margin-left: 250px;
+    /* position: absolute; */
+    margin-left: 600px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+/* #footerbg{
+    background-color: #000000;
+} */
+
+#footer-about{
+    margin-left: 200px;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#footer-about p{
+    font-size: 20px;
 }
 
-.about-header{
-    text-decoration: underline;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
+/* .fa-facebook {
+    background: #3B5998;
+    color: white;
+} */
+
+/* portfolio */
+
+#portfolio-body{
+    font-family: Courier New, Courier, monospace;
+    color: white;    
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#div-body{
+    position: relative;    
+
+}
+
+#portfolio-first-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+    margin-left: 90px;
+    padding: 0px;
+    
+    
+}
+
+#portfolio-second-text{
+   margin-left: 300px;
+}
+#portfolio-third-text{
+    margin-left: 300px;
+    font-size: 15px;
+ }
+ #portfolio-fourth-text{
+    margin-left: 700px;
+    font-size:15px;
+    
+ }
+
+#if{
+    color: #808080;
+}
+#topnavportfolio{
+   position: absolute;
+}
+
+.nav-ul-portfolio{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+
+        
+    
+}
+.nav-ul-portfolio li a{
+   
+        display: block;
+        width: 100px;
+        color: #ffffff;
+        padding: 30px 50px;
+        text-decoration: none;
+}
+
+.nav-ul-portfolio li a:hover{
+    background-color: #fff;
+    color: #bc8f8f;
+}
+.nav-ul-portfolio li a.active{
+background-color: #4CAF50;
+color: white;
+}
+
+/* .nav-li-porfolio a {
+    text-decoration: none;
+    color: #ffffff;
+    word-spacing: 50px;
+} */
+#youtube{
+    margin-top: 50px;
+   position: absolute;
+   clear: both;
+   float: left;
+   margin-left: 400px;
+}
+
+#portfolio-image{
+    
+   
+   clear: both;
+   margin-left: 100px;
+   width: 300px;
+   position: relative;
+   float: right;
+   margin-bottom: 200px;
+
+   
+}
+
+
